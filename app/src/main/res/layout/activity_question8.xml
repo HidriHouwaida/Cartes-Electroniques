@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question8">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_4_les_pastilles_dans_un_sch_ma"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/lectrique_rout_sont_pr_sent_s_par"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-268dp" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_des_traits_en_violet"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_des_traits_en_vert"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="-300dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/c_des_traits_en_bleu"
+        android:textColor="#0f056b"
+        android:textSize="17sp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/d_des_traits_en_jaune"
+        android:textColor="#0f056b"
+        android:textSize="17sp"
+        android:layout_marginStart="-300dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/b"
+        android:layout_marginStart="60dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-360dp"
+        android:id="@+id/c"
+        android:layout_marginStart="-360dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/d"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/d"
+        android:layout_marginStart="60dp"
+        tools:targetApi="lollipop" />
+</LinearLayout>

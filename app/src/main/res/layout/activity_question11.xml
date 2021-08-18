@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question11">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_3_la_r_v_lation_de_la_plaque_se"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/fait_par_un_produit_chimique_qui_est"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-268dp" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_le_perchlorure_de_fer"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_l_ac_tone"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="-300dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/c_une_solution_de_soude_caustique"
+        android:textColor="#0f056b"
+        android:textSize="17sp"
+        android:layout_marginStart="-300dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="60dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-250dp"
+        android:id="@+id/c"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-250dp" />
+</LinearLayout>

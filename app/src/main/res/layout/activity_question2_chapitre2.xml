@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question2_chapitre2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_2_quelles_sont_les_proc_d_s"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-270dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/introduits_par_l_cfoa"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-270dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_per_age"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_test_circuits"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_implantation_des_composants"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/d_qualification"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="-300dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        android:layout_marginStart="-350dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/c"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/d"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/d"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="50dp" />
+</LinearLayout>

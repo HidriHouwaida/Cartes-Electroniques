@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_2_la_fabrication_de_la_carte"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-270dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/lectronique_n_cessite"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-270dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_l_assemblage_d_une_ou_de_plusieurs_couches_de_cuivre_fines_pour_g_rer_l_alimentation_des_diff_rents_composants"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_l_assemblage_d_une_ou_de_plusieurs_couches_de_cuivre_fines_dans_le_but_d_obtenir_en_fin_de_compte_des_pistes_termin_es_par_des_pastilles"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_l_assemblage_d_une_ou_de_plusieurs_couches_de_cuivre_fines_pour_mettre_en_place_un_circuit_lectronique_complexe"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="-300dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/b"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="C"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-250dp"
+        android:id="@+id/c"/>
+</LinearLayout>

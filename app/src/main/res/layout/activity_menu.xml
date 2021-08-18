@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/drawer_layoutmenu"
+    tools:context=".menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@layout/main_toolbar"
+            />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="@string/d_butant"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:background="@drawable/a1"
+        android:layout_marginTop="-480dp"
+        android:id="@+id/debutant"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="@string/interm_diare"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/a2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="@string/expert"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/b1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+        <include
+            layout="@layout/main_nav_drawer"
+            />
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

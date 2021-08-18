@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".question3">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_3_les_pistes_doivent_tre"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="-45dp"
+        android:text="protégé de l’oxydation et"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/et_des_courts_circuits_par_l_utilisation_de"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="a. D’une couche de résine "
+        android:layout_marginLeft="60dp"
+        android:textSize="17dp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_d_une_couche_de_cuivre"
+        android:layout_marginLeft="60dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="60dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-30dp"
+        android:text="@string/c_d_une_couche_de_vernis_color"
+        android:textColor="#0f056b"
+        android:textSize="17dp"
+        android:layout_marginStart="60dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="-30dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/a"
+        android:layout_marginStart="-100dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="100dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/c"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="10dp" />
+</LinearLayout>

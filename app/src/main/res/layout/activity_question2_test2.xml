@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".question2_test2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/_2_le_format_de_fichier_gerber"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-40dp"
+        android:text="@string/permet_de"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_un_circuit_imprim_contient_des_pistes_conductrices_grav_es_sur_le_cuivre"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_un_circuit_imprim_avec_des_pastilles_bien_perc_es"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_une_plaque_lectronique_qui_assure_la_liaison_entre_des_composants_lectronique"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-100dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/b"
+        android:layout_marginStart="100dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/c"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="10dp" />
+</LinearLayout>

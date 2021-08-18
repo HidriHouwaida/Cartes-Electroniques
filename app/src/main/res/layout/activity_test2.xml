@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/_1_la_r_alisation_d_un_sch_ma"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-270dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/lectrique_n_cessite"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-270dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_la_conception_et_la_simulation_des_composants_de_circuit_lectrique"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_la_simulation_et_la_conception_des_composants_de_circuit_lectrique"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_l_analyse_et_validation_du_cahier_de_charge"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="-300dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-250dp"
+        android:id="@+id/c"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-250dp" />
+</LinearLayout>

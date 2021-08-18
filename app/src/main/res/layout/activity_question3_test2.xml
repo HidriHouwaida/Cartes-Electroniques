@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".question3_test2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/_3_quelle_est_l_extension"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/qui_n_appartient_pas_aux_fichiers_gerber"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_gto"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_gdd"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-35dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_gbi"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/d_gtl"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/e_gtd"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-30dp"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="-30dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/e"
+        android:layout_marginStart="-100dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/f"
+        android:layout_marginStart="110dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/g"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-100dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/d"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="110dp"
+        android:backgroundTint="#AE604F"
+        android:id="@+id/h"
+        android:layout_marginStart="110dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/e"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:id="@+id/k"
+        tools:targetApi="lollipop" />
+</LinearLayout>

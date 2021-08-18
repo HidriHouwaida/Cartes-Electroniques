@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".test1_chapitre3">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/_1_la_boite_outil"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/pour_le_logiciel_isis_contient"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_les_touches_magn_toscope"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_la_biblioth_que_des_objets"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-25dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_le_mode_graphique"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-20dp"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/a"
+        android:layout_marginStart="-100dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="110dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/c"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:id="@+id/c"
+        tools:targetApi="lollipop" />
+</LinearLayout>

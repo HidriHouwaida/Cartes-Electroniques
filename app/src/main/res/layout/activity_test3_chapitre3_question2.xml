@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".test3_chapitre3_question2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/_2_pour_le_placement_d_un"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-50dp"
+        android:text="@string/composant_sur_le_sch_ma_il_faut_cliquer_sur"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_composant_mode_principal_composant_choisi_placer_la_souris_bouton_gauche"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_mode_principal_composant_choisi_composant_placer_la_souris_bouton_gauche"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/c_mode_principal_composant_choisi_composant_bouton_gauche_placer_la_souris"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/d_mode_principal_composant_composant_choisi_placer_la_souris_bouton_gauche"
+        android:layout_marginLeft="50dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-100dp"
+        android:id="@+id/a"
+        android:layout_marginStart="-100dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="-50dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="110dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="-100dp"
+        android:text="@string/c"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#AE604F"
+        android:id="@+id/c"
+        android:layout_marginStart="-100dp"
+        tools:targetApi="lollipop" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/d"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="110dp"
+        android:backgroundTint="#AE604F"
+        android:id="@+id/d"
+        android:layout_marginStart="110dp"
+        tools:targetApi="lollipop" />
+</LinearLayout>

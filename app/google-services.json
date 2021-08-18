@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208656097214",
+    "project_id": "carteelectronique-66ac2",
+    "storage_bucket": "carteelectronique-66ac2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208656097214:android:56d06d22a879ab5b6f63ef",
+        "android_client_info": {
+          "package_name": "com.example.carteseletroniques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208656097214-nn7rdegehgvrbcs4jrsfr4m3132ekfeu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcWvEkCWXKe4xqgnZ7PbyvUfvPBG6nvtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208656097214-nn7rdegehgvrbcs4jrsfr4m3132ekfeu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

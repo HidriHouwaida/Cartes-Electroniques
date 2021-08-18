@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.carteseletroniques">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ac"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Light">
+        <activity android:name=".Supprime"></activity>
+        <activity android:name=".NoteEdit" />
+        <activity android:name=".Note" />
+        <activity android:name=".aboutus" />
+        <activity android:name=".setting" />
+        <activity android:name=".test3_chapitre3_question4" />
+        <activity android:name=".test3_chapitre3_question3" />
+        <activity android:name=".test3_chapitre3_question2" />
+        <activity android:name=".test3_chapitre3" />
+        <activity android:name=".test2_chapitre3_question3" />
+        <activity android:name=".test2_chapitre3_question2" />
+        <activity android:name=".test2_chapitre3" />
+        <activity android:name=".r" />
+        <activity android:name=".test1_chapitre3_question3" />
+        <activity android:name=".test1_chapitre3_question2" />
+        <activity android:name=".test1_chapitre3" />
+        <activity android:name=".pdf2" />
+        <activity android:name=".menu_qcm2" />
+        <activity android:name=".menu_chapitre3" />
+        <activity android:name=".question2_test3" />
+        <activity android:name=".test3_chapitre2" />
+        <activity android:name=".question3_test2" />
+        <activity android:name=".question2_test2" />
+        <activity android:name=".test2_chapitre2" />
+        <activity android:name=".res" />
+        <activity android:name=".question3_chapitre2" />
+        <activity android:name=".question2_chapitre2" />
+        <activity android:name=".test1_chapitre2" />
+        <activity android:name=".pdf1" />
+        <activity android:name=".menu_qcm1" />
+        <activity android:name=".menu_chapitre_2" />
+        <activity android:name=".question13" />
+        <activity android:name=".question11" />
+        <activity android:name=".question12" />
+        <activity android:name=".question10" />
+        <activity android:name=".test3" />
+        <activity android:name=".question9" />
+        <activity android:name=".question8" />
+        <activity android:name=".question7" />
+        <activity android:name=".question6" />
+        <activity android:name=".test2" />
+        <activity android:name=".re" />
+        <activity android:name=".pdf" />
+        <activity android:name=".question5" />
+        <activity android:name=".question4" />
+        <activity android:name=".question3" />
+        <activity android:name=".question2" />
+        <activity android:name=".test1" />
+        <activity android:name=".menu_qcm" />
+        <activity android:name=".menu_chapitre_1" />
+        <activity android:name=".menu_de_niveau_debutant" />
+        <activity android:name=".ForgetPassWord" />
+        <activity android:name=".menu" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".LoginouInscriptions" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".question6">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/_2_le_choix_des_composants"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="20dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-268dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/pour_l_tape_de_routage_se_fait_en_fonction_des_contraintes_qui_sont"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginStart="-268dp" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/a_la_conductivit_et_la_liaison_des_pistes"
+        android:layout_marginLeft="-280dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="-280dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="@string/b_l_emplacement_des_composants"
+        android:layout_marginLeft="-300dp"
+        android:textSize="17sp"
+        android:textColor="#0f056b"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="-300dp" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/c_l_effet_de_d_gagement_de_chaleur_de_certains_composants"
+        android:textColor="#0f056b"
+        android:textSize="17sp"
+        android:layout_marginStart="-300dp" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="330dp"
+        android:text="@string/d_la_composition_de_certain_composant"
+        android:textColor="#0f056b"
+        android:textSize="17sp"
+        android:layout_marginStart="-300dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/a"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-350dp"
+        android:id="@+id/a"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-350dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/b"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/b"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="60dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="C"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="-360dp"
+        android:id="@+id/c"
+        tools:ignore="HardcodedText"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="-360dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/d"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="#AE604F"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/d"
+        tools:targetApi="lollipop"
+        android:layout_marginStart="60dp" />
+</LinearLayout>

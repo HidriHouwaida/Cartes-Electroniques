@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".aboutus"
+    tools:ignore="UseCompoundDrawables">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/aboutus"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#071A4C"
+        android:textSize="20sp"
+        android:text="@string/aboutus"
+        android:layout_marginStart="20dp" />
+</LinearLayout>
